@@ -1,8 +1,8 @@
-function checkPrime(number){
+function checkPrime(num){
     let factors=0;
-     for(a=1;a>=number;a--){
-      if(number%a==0){
-       factors+;
+     for(a=1;a<=num;a++){
+      if(num%a==0){
+       factors++;
       }
      }
 if(factors==2){
